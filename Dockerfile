@@ -6,6 +6,8 @@ WORKDIR /sync
 
 RUN cd /sync && npm install
 
+RUN mkdir /sync/data
+
 VOLUME /sync/data
 
 EXPOSE 3000
