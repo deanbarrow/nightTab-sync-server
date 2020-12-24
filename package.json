@@ -1,0 +1,17 @@
+{
+  "name": "sync",
+  "version": "1.0.0",
+  "description": "A sync server for backing up and using nightTab across devices",
+  "main": "app.js",
+  "scripts": {
+    "develop": "nodemon app.js",
+    "sync": "node app.js"
+  },
+  "author": "",
+  "license": "GPL-3",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
