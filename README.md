@@ -1,5 +1,9 @@
 ## Basic sync functionality for nightTab
 
+There is an experimental sync server for the custom start page, nightTab(https://github.com/zombieFox/nightTab) which will allow you to backup and restore data across multiple devices.
+
+Please download a backup of your data before using.
+
 ### Setup
 
 Requires environment variable `PASSWORD` be set.
