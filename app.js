@@ -53,7 +53,7 @@ const putData = async (req, res) => {
 
     try{
         const data = JSON.stringify(body, null, 2)
-        fs.writeFileSync('data.json', data)
+        fs.writeFileSync('data/data.json', data)
         console.log('Updated')
         return res.send()
     }catch(err){
